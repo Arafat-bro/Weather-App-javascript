@@ -1,0 +1,41 @@
+@font-face{
+    font-family: rimouseki;
+    src:url(/fonts/rimouski\ sb.ttf)
+}
+body{
+    font-family: rimouseki;
+    text-align: center;
+    background: url(bullseye-gradient.svg);
+}
+.container .box{
+    box-shadow: 2px 1px 1px 1px orange;
+    margin-top: 70px;
+    width: 400px;
+    height: 500px;
+    background-color: #FFCC00;
+    
+}
+.temp-section{
+    cursor: pointer;
+}
+.weather-icon img{
+    height: 40%;
+    width: 40%;
+    margin: 0 auto;
+}
+.temperature-description {
+    font-size: 20px;
+}
+.temperature-desc p{
+    font-size: 24px;
+}
+.location{
+    font-size: 20px;
+}
+button{
+    border: 0;
+    background: none;
+}
+.ml-6{
+    margin-left: 30px;
+}
